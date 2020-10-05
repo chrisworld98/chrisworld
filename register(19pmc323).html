@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information</title>
+	<script type="text/javascript" src="validation.js">
+	</script>
+
+</head>
+
+<body>
+	<h1>Registration Details </h1>
+	<form name="form1" method="post" onsubmit="return validateForm()">
+	
+<table >
+   
+<tr>
+    <td><b><label for="name">Name:</label></b></td>
+	<td><input type=" text" id="number" cplaceholder=" Name" name="name" ><br><br></td>
+</tr>
+
+
+<tr>
+    <td><b><label  for="name"> DOB:</label> </b></td>
+	<td><input type="Date"     name="dob" ><br><br></td>
+</tr>
+
+<tr>
+    <td><b><label  for="name">Phone Number:</label> </b></td>
+	<td><input type="mobile"   maxlength="10" placeholder="Number" name="mobile" ><br><br></td>
+</tr>
+
+<tr>
+	<td><b><label  for="name">Emailid:</label> </b></td>
+	<td><input type="Email"  name="email"  placeholder="@gmail.com" ><br><br></td>
+</tr>
+  
+    
+     
+    <tr>
+    	<td><b>Gender :</b></td>
+    	<td>
+    		<input type="radio" name="gender" value="male" >Male
+    		<input type="radio" name="gender" value="female" >Female
+    		<input type="radio" name="gender" value="other" >Other
+    	</td>
+    </tr>
+
+    <tr>
+       <td> <b><label  for="name">Percentage Obtained:</label> </b></td>
+	   <td><input type="text"   placeholder="" name="mark"><br><br></td>
+
+	</tr>
+
+	 
+	
+	</table>
+
+		<input type="submit"  name="submit" value="Register">
+		
+
+
+		
+		
+
+</form>
+</body>
+</html> 
